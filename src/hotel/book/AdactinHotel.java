@@ -25,8 +25,8 @@ public static void main(String[] args) throws InterruptedException {
 	WebElement ddn = driver.findElement(By.id("location"));
 	Select s = new Select(ddn);
 	s.selectByIndex(7);
-System.out.println("git");	
-System.out.println("branch created");
+	System.out.println("github");	
+	System.out.println("branch created");
 	WebElement hotelD1 = driver.findElement(By.id("hotels"));
 	Select s1 = new Select(hotelD1);
 	s1.selectByVisibleText("Hotel Sunshine");
